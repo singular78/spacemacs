@@ -59,7 +59,7 @@
             ;; Enable Chinese word segmentation support
             youdao-dictionary-use-chinese-word-segmentation t))))
 
-(defun chinese/init-chinese-pyim ()
+(defun chinese/init-pyim ()
   (use-package pyim
     :if (eq 'pinyin chinese-default-input-method)
     :init
